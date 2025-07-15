@@ -1,0 +1,128 @@
+main {
+  margin-top: 100px;
+  padding: 2rem 0;
+}
+
+.content-section {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.content-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.view-all-btn {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: 2px solid #667eea;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.view-all-btn:hover {
+  background: #667eea;
+  color: white;
+}
+
+.leaderboard {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.15);
+}
+
+.leaderboard-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.leaderboard-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #f0f0f0;
+  font-weight: 600;
+}
+
+.leaderboard-item:last-child {
+  border-bottom: none;
+}
+
+.rank {
+  font-size: 1.4rem;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background: #dcdcdc;
+  color: #555;
+  user-select: none;
+}
+
+.rank.gold {
+  background: #ffd700;
+  color: #333;
+}
+
+.rank.silver {
+  background: #c0c0c0;
+  color: #333;
+}
+
+.rank.bronze {
+  background: #cd7f32;
+  color: white;
+}
+
+.user-info {
+  flex-grow: 1;
+  padding-left: 1rem;
+}
+
+.username {
+  font-weight: 700;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.user-stats {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.score {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #667eea;
+  user-select: none;
+}

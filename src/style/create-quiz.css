@@ -1,0 +1,134 @@
+main {
+  margin-top: 90px; /* Reduce this from 160px */
+  padding: 2rem 0;
+}
+
+.content-section {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.content-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+.section-header {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.create-quiz-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #667eea;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.form-row .form-group {
+  flex: 1;
+  min-width: 150px;
+}
+
+.questions-section h3 {
+  margin-bottom: 1rem;
+}
+
+.add-question-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.7rem 1.3rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1.5rem;
+  width: fit-content;
+}
+
+.add-question-btn:hover {
+  background: #5a6bd8;
+}
+
+.question-item {
+  background: #f5f7ff;
+  padding: 1rem;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.15);
+}
+
+.submit-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 1rem 1.8rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #5a6bd8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+}

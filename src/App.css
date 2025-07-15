@@ -1,0 +1,12 @@
+/* Add to your layout CSS file or global CSS */
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-top: 80px; /* adjust based on your Header height */
+}

@@ -1,0 +1,676 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "icon": "🧬",
+      "name": "Science",
+      "count": 4
+    },
+    {
+      "id": "2",
+      "icon": "💻",
+      "name": "Technology",
+      "count": 5
+    },
+    {
+      "id": "3",
+      "icon": "🏛️",
+      "name": "History",
+      "count": 5
+    },
+    {
+      "id": "4",
+      "icon": "📚",
+      "name": "Literature",
+      "count": 5
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "1",
+      "icon": "🧬",
+      "title": "Advanced Biology",
+      "desc": "Test your knowledge...",
+      "stats": "25 Questions, 30 mins, 1,245 taken",
+      "difficulty": "hard",
+      "category": "Science",
+      "featured": true,
+      "questions": [
+        {
+          "question": "What is DNA?",
+          "options": {
+            "a": "Data Network",
+            "b": "Digital Node Array",
+            "c": "Deoxyribonucleic Acid",
+            "d": "None"
+          },
+          "correct": "c",
+          "explanation": "DNA is the molecule..."
+        },
+        {
+          "question": "Which organelle is known as the powerhouse of the cell?",
+          "options": {
+            "a": "Nucleus",
+            "b": "Mitochondria",
+            "c": "Ribosome",
+            "d": "Endoplasmic Reticulum"
+          },
+          "correct": "b",
+          "explanation": "Mitochondria generate most of the cell's energy."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "icon": "🧬",
+      "title": "Physics Basics",
+      "desc": "Explore Newton's laws, motion, and energy.",
+      "stats": "20 Questions, 25 mins, 980 taken",
+      "difficulty": "medium",
+      "category": "Science",
+      "featured": true,
+      "questions": [
+        {
+          "question": "Who formulated the laws of motion?",
+          "options": {
+            "a": "Einstein",
+            "b": "Newton",
+            "c": "Tesla",
+            "d": "Hawking"
+          },
+          "correct": "b",
+          "explanation": "Newton gave the laws of motion."
+        },
+        {
+          "question": "What is the unit of force in the SI system?",
+          "options": {
+            "a": "Newton",
+            "b": "Joule",
+            "c": "Watt",
+            "d": "Pascal"
+          },
+          "correct": "a",
+          "explanation": "Force is measured in Newtons (N)."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "icon": "🧬",
+      "title": "Chemistry Essentials",
+      "desc": "Test your knowledge of elements and compounds.",
+      "stats": "18 Questions, 20 mins, 823 taken",
+      "difficulty": "easy",
+      "category": "Science",
+      "featured": true,
+      "questions": [
+        {
+          "question": "What is the chemical symbol for water?",
+          "options": {
+            "a": "HO",
+            "b": "H2O",
+            "c": "OH2",
+            "d": "WO"
+          },
+          "correct": "b",
+          "explanation": "H2O is the chemical formula of water."
+        },
+        {
+          "question": "Which element has the chemical symbol 'Fe'?",
+          "options": {
+            "a": "Fluorine",
+            "b": "Iron",
+            "c": "Francium",
+            "d": "Fermium"
+          },
+          "correct": "b",
+          "explanation": "'Fe' is the symbol for Iron."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "icon": "🧬",
+      "title": "Human Anatomy",
+      "desc": "Dive into the structure of the human body.",
+      "stats": "22 Questions, 28 mins, 642 taken",
+      "difficulty": "medium",
+      "category": "Science",
+      "featured": true,
+      "questions": [
+        {
+          "question": "How many bones are in the adult human body?",
+          "options": {
+            "a": "206",
+            "b": "201",
+            "c": "212",
+            "d": "200"
+          },
+          "correct": "a",
+          "explanation": "There are 206 bones in the adult human body."
+        },
+        {
+          "question": "What is the largest organ in the human body?",
+          "options": {
+            "a": "Liver",
+            "b": "Skin",
+            "c": "Lungs",
+            "d": "Heart"
+          },
+          "correct": "b",
+          "explanation": "The skin is the largest organ."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "icon": "💻",
+      "title": "Computer Basics",
+      "desc": "Understand the fundamentals of computing.",
+      "stats": "15 Questions, 15 mins, 510 taken",
+      "difficulty": "easy",
+      "category": "Technology",
+      "featured": true,
+      "questions": [
+        {
+          "question": "What does CPU stand for?",
+          "options": {
+            "a": "Central Processing Unit",
+            "b": "Central Programming Unit",
+            "c": "Core Processing Utility",
+            "d": "None"
+          },
+          "correct": "a",
+          "explanation": "CPU stands for Central Processing Unit."
+        },
+        {
+          "question": "Which device is used to input data into a computer?",
+          "options": {
+            "a": "Monitor",
+            "b": "Keyboard",
+            "c": "Printer",
+            "d": "Speaker"
+          },
+          "correct": "b",
+          "explanation": "Keyboard is an input device."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "icon": "💻",
+      "title": "Web Development",
+      "desc": "Basics of HTML, CSS, and JavaScript.",
+      "stats": "20 Questions, 25 mins, 760 taken",
+      "difficulty": "medium",
+      "category": "Technology",
+      "featured": true,
+      "questions": [
+        {
+          "question": "What does HTML stand for?",
+          "options": {
+            "a": "HyperText Markup Language",
+            "b": "Home Tool Markup Language",
+            "c": "Hyperlinks and Text Markup Language",
+            "d": "None"
+          },
+          "correct": "a",
+          "explanation": "HTML is HyperText Markup Language."
+        },
+        {
+          "question": "Which language is used to style web pages?",
+          "options": {
+            "a": "HTML",
+            "b": "Python",
+            "c": "CSS",
+            "d": "JavaScript"
+          },
+          "correct": "c",
+          "explanation": "CSS is used for styling web pages."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "icon": "💻",
+      "title": "Cybersecurity 101",
+      "desc": "Learn basic online safety and threats.",
+      "stats": "18 Questions, 20 mins, 620 taken",
+      "difficulty": "medium",
+      "category": "Technology",
+      "featured": true,
+      "questions": [
+        {
+          "question": "What is phishing?",
+          "options": {
+            "a": "Fishing on the internet",
+            "b": "A hacking technique to steal data",
+            "c": "Spam emails",
+            "d": "None"
+          },
+          "correct": "b",
+          "explanation": "Phishing is a fraudulent attempt to get sensitive info."
+        },
+        {
+          "question": "Which of these is a strong password example?",
+          "options": {
+            "a": "password123",
+            "b": "123456",
+            "c": "P@ssw0rd!2025",
+            "d": "abcdef"
+          },
+          "correct": "c",
+          "explanation": "Strong passwords use letters, numbers, and symbols."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "icon": "💻",
+      "title": "AI and Machine Learning",
+      "desc": "Basics of artificial intelligence.",
+      "stats": "15 Questions, 18 mins, 540 taken",
+      "difficulty": "hard",
+      "category": "Technology",
+      "featured": true,
+      "questions": [
+        {
+          "question": "Which language is popular for ML?",
+          "options": {
+            "a": "Python",
+            "b": "C++",
+            "c": "HTML",
+            "d": "Swift"
+          },
+          "correct": "a",
+          "explanation": "Python is widely used for ML and AI."
+        },
+        {
+          "question": "What does 'AI' stand for?",
+          "options": {
+            "a": "Automated Intelligence",
+            "b": "Artificial Intelligence",
+            "c": "Active Internet",
+            "d": "Analytical Input"
+          },
+          "correct": "b",
+          "explanation": "AI stands for Artificial Intelligence."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "icon": "💻",
+      "title": "Mobile Tech",
+      "desc": "Smartphones and app development basics.",
+      "stats": "12 Questions, 15 mins, 470 taken",
+      "difficulty": "easy",
+      "category": "Technology",
+      "featured": true,
+      "questions": [
+        {
+          "question": "What OS does iPhone use?",
+          "options": {
+            "a": "Android",
+            "b": "iOS",
+            "c": "Windows",
+            "d": "MacOS"
+          },
+          "correct": "b",
+          "explanation": "iPhones run on iOS."
+        },
+        {
+          "question": "Which company develops the Android OS?",
+          "options": {
+            "a": "Apple",
+            "b": "Microsoft",
+            "c": "Google",
+            "d": "Samsung"
+          },
+          "correct": "c",
+          "explanation": "Google develops Android OS."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "icon": "🏛️",
+      "title": "World War II",
+      "desc": "Learn about key events of WWII.",
+      "stats": "20 Questions, 25 mins, 800 taken",
+      "difficulty": "medium",
+      "category": "History",
+      "featured": true,
+      "questions": [
+        {
+          "question": "Who was the UK Prime Minister during WWII?",
+          "options": {
+            "a": "Churchill",
+            "b": "Thatcher",
+            "c": "Blair",
+            "d": "Chamberlain"
+          },
+          "correct": "a",
+          "explanation": "Winston Churchill led the UK during most of WWII."
+        },
+        {
+          "question": "In which year did World War II end?",
+          "options": {
+            "a": "1945",
+            "b": "1939",
+            "c": "1950",
+            "d": "1942"
+          },
+          "correct": "a",
+          "explanation": "WWII ended in 1945."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "icon": "🏛️",
+      "title": "Ancient Egypt",
+      "desc": "Pharaohs, pyramids, and more.",
+      "stats": "15 Questions, 20 mins, 560 taken",
+      "difficulty": "easy",
+      "category": "History",
+      "featured": true,
+      "questions": [
+        {
+          "question": "What was the writing system of ancient Egypt?",
+          "options": {
+            "a": "Cuneiform",
+            "b": "Hieroglyphics",
+            "c": "Latin",
+            "d": "Sanskrit"
+          },
+          "correct": "b",
+          "explanation": "Hieroglyphics were used in ancient Egypt."
+        },
+        {
+          "question": "What structure is the Great Pyramid of Giza?",
+          "options": {
+            "a": "Temple",
+            "b": "Tomb",
+            "c": "Palace",
+            "d": "Fortress"
+          },
+          "correct": "b",
+          "explanation": "The Great Pyramid was built as a tomb."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "icon": "🏛️",
+      "title": "Islamic History",
+      "desc": "Major events from early Islamic period.",
+      "stats": "18 Questions, 22 mins, 710 taken",
+      "difficulty": "medium",
+      "category": "History",
+      "featured": true,
+      "questions": [
+        {
+          "question": "Where was the Prophet Muhammad (PBUH) born?",
+          "options": {
+            "a": "Medina",
+            "b": "Jerusalem",
+            "c": "Makkah",
+            "d": "Baghdad"
+          },
+          "correct": "c",
+          "explanation": "The Prophet (PBUH) was born in Makkah."
+        },
+        {
+          "question": "What is the Hijra in Islamic history?",
+          "options": {
+            "a": "Migration of the Prophet to Medina",
+            "b": "Birth of the Prophet",
+            "c": "Battle of Badr",
+            "d": "Revelation of Quran"
+          },
+          "correct": "a",
+          "explanation": "Hijra refers to the migration to Medina."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "icon": "🏛️",
+      "title": "Mughal Empire",
+      "desc": "Rise and fall of the Mughal Dynasty.",
+      "stats": "20 Questions, 25 mins, 600 taken",
+      "difficulty": "medium",
+      "category": "History",
+      "featured": true,
+      "questions": [
+        {
+          "question": "Who founded the Mughal Empire?",
+          "options": {
+            "a": "Babur",
+            "b": "Akbar",
+            "c": "Shah Jahan",
+            "d": "Aurangzeb"
+          },
+          "correct": "a",
+          "explanation": "Babur was the founder of the Mughal Empire."
+        },
+        {
+          "question": "Which Mughal emperor built the Taj Mahal?",
+          "options": {
+            "a": "Babur",
+            "b": "Akbar",
+            "c": "Shah Jahan",
+            "d": "Aurangzeb"
+          },
+          "correct": "c",
+          "explanation": "Shah Jahan commissioned the Taj Mahal."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "icon": "🏛️",
+      "title": "Modern History",
+      "desc": "20th-century revolutions and reforms.",
+      "stats": "16 Questions, 20 mins, 480 taken",
+      "difficulty": "hard",
+      "category": "History",
+      "featured": true,
+      "questions": [
+        {
+          "question": "When did the Berlin Wall fall?",
+          "options": {
+            "a": "1991",
+            "b": "1989",
+            "c": "1985",
+            "d": "1993"
+          },
+          "correct": "b",
+          "explanation": "The Berlin Wall fell in 1989."
+        },
+        {
+          "question": "Who was the first President of the United States?",
+          "options": {
+            "a": "Abraham Lincoln",
+            "b": "George Washington",
+            "c": "Thomas Jefferson",
+            "d": "John Adams"
+          },
+          "correct": "b",
+          "explanation": "George Washington was the first US president."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "icon": "📚",
+      "title": "Shakespearean Plays",
+      "desc": "Explore the world of Shakespeare.",
+      "stats": "20 Questions, 30 mins, 900 taken",
+      "difficulty": "hard",
+      "category": "Literature",
+      "featured": true,
+      "questions": [
+        {
+          "question": "Who wrote 'Romeo and Juliet'?",
+          "options": {
+            "a": "Marlowe",
+            "b": "Shakespeare",
+            "c": "Milton",
+            "d": "Chaucer"
+          },
+          "correct": "b",
+          "explanation": "William Shakespeare wrote the play."
+        },
+        {
+          "question": "Which play features the character Iago?",
+          "options": {
+            "a": "Othello",
+            "b": "Macbeth",
+            "c": "Hamlet",
+            "d": "King Lear"
+          },
+          "correct": "a",
+          "explanation": "Iago is the antagonist in Othello."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "icon": "📚",
+      "title": "Poetry Forms",
+      "desc": "Sonnet, haiku, and more poetic styles.",
+      "stats": "12 Questions, 15 mins, 410 taken",
+      "difficulty": "medium",
+      "category": "Literature",
+      "featured": true,
+      "questions": [
+        {
+          "question": "How many lines does a haiku have?",
+          "options": {
+            "a": "2",
+            "b": "3",
+            "c": "4",
+            "d": "5"
+          },
+          "correct": "b",
+          "explanation": "A haiku is a 3-line poem."
+        },
+        {
+          "question": "What is the typical rhyme scheme of a Shakespearean sonnet?",
+          "options": {
+            "a": "ABAB CDCD EFEF GG",
+            "b": "AABB CCDD EEFF GG",
+            "c": "ABBA ABBA CDE CDE",
+            "d": "AAAA BBBB CCCC DDDD"
+          },
+          "correct": "a",
+          "explanation": "Shakespearean sonnets follow ABAB CDCD EFEF GG."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "icon": "📚",
+      "title": "Classic Novels",
+      "desc": "Iconic literature through the ages.",
+      "stats": "18 Questions, 22 mins, 670 taken",
+      "difficulty": "medium",
+      "category": "Literature",
+      "featured": true,
+      "questions": [
+        {
+          "question": "Who wrote 'Pride and Prejudice'?",
+          "options": {
+            "a": "Jane Austen",
+            "b": "Emily Brontë",
+            "c": "Charles Dickens",
+            "d": "George Eliot"
+          },
+          "correct": "a",
+          "explanation": "Jane Austen wrote the novel."
+        },
+        {
+          "question": "Which novel features the character Ebenezer Scrooge?",
+          "options": {
+            "a": "Oliver Twist",
+            "b": "A Tale of Two Cities",
+            "c": "Great Expectations",
+            "d": "A Christmas Carol"
+          },
+          "correct": "d",
+          "explanation": "Ebenezer Scrooge is from 'A Christmas Carol'."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "icon": "📚",
+      "title": "Modern Literature",
+      "desc": "Notable books from the 20th century.",
+      "stats": "16 Questions, 20 mins, 560 taken",
+      "difficulty": "medium",
+      "category": "Literature",
+      "featured": true,
+      "questions": [
+        {
+          "question": "Who wrote '1984'?",
+          "options": {
+            "a": "Orwell",
+            "b": "Huxley",
+            "c": "Fitzgerald",
+            "d": "Steinbeck"
+          },
+          "correct": "a",
+          "explanation": "George Orwell wrote the dystopian novel."
+        },
+        {
+          "question": "What is the genre of 'The Great Gatsby'?",
+          "options": {
+            "a": "Science Fiction",
+            "b": "Historical Fiction",
+            "c": "Tragedy",
+            "d": "Modernist Novel"
+          },
+          "correct": "d",
+          "explanation": "'The Great Gatsby' is considered a Modernist novel."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "icon": "📚",
+      "title": "Literary Devices",
+      "desc": "Simile, metaphor, and other tools.",
+      "stats": "10 Questions, 12 mins, 370 taken",
+      "difficulty": "easy",
+      "category": "Literature",
+      "featured": true,
+      "questions": [
+        {
+          "question": "What is a metaphor?",
+          "options": {
+            "a": "A comparison using 'like'",
+            "b": "A direct comparison",
+            "c": "A poem",
+            "d": "None"
+          },
+          "correct": "b",
+          "explanation": "A metaphor is a direct comparison between two things."
+        },
+        {
+          "question": "Which literary device involves giving human traits to non-human things?",
+          "options": {
+            "a": "Personification",
+            "b": "Alliteration",
+            "c": "Hyperbole",
+            "d": "Onomatopoeia"
+          },
+          "correct": "a",
+          "explanation": "Personification attributes human traits to non-human objects."
+        }
+      ]
+    }
+  ]
+}
